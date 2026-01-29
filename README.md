@@ -1,45 +1,28 @@
-🧠 AI Resume Classifier
+AI Resume Classifier
 
 An AI-powered resume classification web application that compares a candidate’s resume against a job description and provides an intelligent match score, keyword analysis, and skill gap insights — all without using a backend or database.
 
 Built using React + Vite and Google Gemini API, this project demonstrates practical AI integration, file parsing, and modern frontend engineering.
 
-🚀 Features
-
-📄 Upload resumes in PDF, DOCX, or TXT format
-
-🧠 AI-driven resume-to-job matching using Google Gemini
-
-📊 Match score with detailed summary
-
-🔑 Highlights matched keywords and missing crucial skills
-
-🕘 Local scan history stored in browser localStorage
-
-⚡ Fast, lightweight frontend-only architecture
-
-🧩 Clean and modern UI built with Tailwind CSS
-
-❌ No database, no backend — runs fully in the browser
+Features
+1. Upload resumes in PDF, DOCX, or TXT format
+2 AI-driven resume-to-job matching using Google Gemini
+3 Match score with detailed summary
+4 Highlights matched keywords and missing crucial skills
+5 Local scan history stored in browser localStorage
+6 Fast, lightweight frontend-only architecture
+7 Clean and modern UI built with Tailwind CSS
+8 No database, no backend — runs fully in the browser
 
 🛠 Tech Stack
-
 Frontend: React, Vite
-
 Styling: Tailwind CSS
-
 AI: Google Gemini API
-
 File Parsing:
-
 PDF → pdf.js
-
 DOCX → mammoth.js
-
 Icons: Lucide React
-
 State Management: React Hooks
-
 Storage: Browser localStorage
 
 📂 Project Structure
@@ -66,9 +49,7 @@ cd ai-resume-classifier
 npm install
 
 3️⃣ Add your Gemini API key
-
 In App.jsx:
-
 const API_KEY = "YOUR_GOOGLE_GEMINI_API_KEY";
 
 4️⃣ Start the development server
